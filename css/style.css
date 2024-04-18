@@ -2,3 +2,16 @@ body {
     background-color: rgb(8, 150, 206);
 
 }
+
+.cool {
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+    background: rgb(70, 0, 128);
+    transition: background-color 1s;
+}
+
+.cool.red {
+    visibility: visible;
+    background-color: rgb(255, 0, 76);
+}
